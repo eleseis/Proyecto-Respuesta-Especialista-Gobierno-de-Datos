@@ -1,0 +1,29 @@
+
+-- MEDIDAS DAX PARA USAR EN POWER BI
+
+Total Sales = SUM('Sales'[SalesAmount])
+
+Average Sale = AVERAGE('Sales'[SalesAmount])
+
+Transactions = COUNTROWS('Sales')
+
+Unique Customers = DISTINCTCOUNT('Sales'[CustomerID])
+
+Max Sale = MAX('Sales'[SalesAmount])
+Min Sale = MIN('Sales'[SalesAmount])
+
+-- Crecimiento Mensual % (asume tabla de fechas relacionada con Sales[OrderDate])
+Sales MTD = TOTALMTD([Total Sales], 'Date'[Date])
+
+Sales Prev Month = CALCULATE([Total Sales], PREVIOUSMONTH('Date'[Date]))
+
+Monthly Sales Growth % = 
+VAR Prev = [Sales Prev Month]
+VAR Curr = [Total Sales]
+RETURN
+IF(NOT(ISBLANK(Prev)) && Prev <> 0, DIVIDE(Curr - Prev, Prev), BLANK())
+
+-- Alternativa: growth based on time-intel using SAMEPERIODLASTYEAR
+Sales LY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))
+YoY Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY])
+

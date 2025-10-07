@@ -1,0 +1,402 @@
+[
+    {
+        "TransaccionID": 1,
+        "ClienteID": 7,
+        "ProductoID": 3,
+        "Fecha": "15-04-2025",
+        "Monto": 250,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 2,
+        "ClienteID": 15,
+        "ProductoID": 2,
+        "Fecha": "2025-01-05",
+        "Monto": 50,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 3,
+        "ClienteID": 7,
+        "ProductoID": 6,
+        "Fecha": "15-04-2025",
+        "Monto": null,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 4,
+        "ClienteID": 10,
+        "ProductoID": 2,
+        "Fecha": "05/02/2025",
+        "Monto": 500,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 5,
+        "ClienteID": 7,
+        "ProductoID": 5,
+        "Fecha": "2025/03/10",
+        "Monto": null,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 6,
+        "ClienteID": 15,
+        "ProductoID": 7,
+        "Fecha": "2025-01-05",
+        "Monto": 500,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 7,
+        "ClienteID": 4,
+        "ProductoID": 1,
+        "Fecha": "2025-01-05",
+        "Monto": null,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 8,
+        "ClienteID": 6,
+        "ProductoID": 2,
+        "Fecha": "2025-01-05",
+        "Monto": 500,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 9,
+        "ClienteID": 3,
+        "ProductoID": 1,
+        "Fecha": "2025/03/10",
+        "Monto": 250,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 10,
+        "ClienteID": 15,
+        "ProductoID": 1,
+        "Fecha": "2025/03/10",
+        "Monto": 150,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 11,
+        "ClienteID": 4,
+        "ProductoID": 10,
+        "Fecha": "15-04-2025",
+        "Monto": 50,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 12,
+        "ClienteID": 15,
+        "ProductoID": 6,
+        "Fecha": "2025/03/10",
+        "Monto": 500,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 13,
+        "ClienteID": 7,
+        "ProductoID": 1,
+        "Fecha": "15-04-2025",
+        "Monto": null,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 14,
+        "ClienteID": 2,
+        "ProductoID": 1,
+        "Fecha": "2025/03/10",
+        "Monto": 150,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 15,
+        "ClienteID": 20,
+        "ProductoID": 1,
+        "Fecha": "15-04-2025",
+        "Monto": 750,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 16,
+        "ClienteID": 20,
+        "ProductoID": 6,
+        "Fecha": "05/02/2025",
+        "Monto": 50,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 17,
+        "ClienteID": 2,
+        "ProductoID": 6,
+        "Fecha": "2025-01-05",
+        "Monto": 500,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 18,
+        "ClienteID": 9,
+        "ProductoID": 9,
+        "Fecha": "2025-01-05",
+        "Monto": 50,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 19,
+        "ClienteID": 12,
+        "ProductoID": 8,
+        "Fecha": "05/02/2025",
+        "Monto": null,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 20,
+        "ClienteID": 3,
+        "ProductoID": 1,
+        "Fecha": "2025-01-05",
+        "Monto": 150,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 21,
+        "ClienteID": 13,
+        "ProductoID": 6,
+        "Fecha": "15-04-2025",
+        "Monto": null,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 22,
+        "ClienteID": 19,
+        "ProductoID": 3,
+        "Fecha": "2025/03/10",
+        "Monto": 500,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 23,
+        "ClienteID": 20,
+        "ProductoID": 10,
+        "Fecha": "15-04-2025",
+        "Monto": 250,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 24,
+        "ClienteID": 9,
+        "ProductoID": 1,
+        "Fecha": "2025/03/10",
+        "Monto": 500,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 25,
+        "ClienteID": 10,
+        "ProductoID": 3,
+        "Fecha": "15-04-2025",
+        "Monto": 150,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 26,
+        "ClienteID": 14,
+        "ProductoID": 8,
+        "Fecha": "2025-01-05",
+        "Monto": 50,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 27,
+        "ClienteID": 17,
+        "ProductoID": 3,
+        "Fecha": "15-04-2025",
+        "Monto": 750,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 28,
+        "ClienteID": 14,
+        "ProductoID": 8,
+        "Fecha": "2025/03/10",
+        "Monto": null,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 29,
+        "ClienteID": 7,
+        "ProductoID": 9,
+        "Fecha": "2025-01-05",
+        "Monto": 750,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 30,
+        "ClienteID": 20,
+        "ProductoID": 3,
+        "Fecha": "15-04-2025",
+        "Monto": 750,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 31,
+        "ClienteID": 18,
+        "ProductoID": 9,
+        "Fecha": "2025-01-05",
+        "Monto": 150,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 32,
+        "ClienteID": 19,
+        "ProductoID": 5,
+        "Fecha": "2025-01-05",
+        "Monto": 500,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 33,
+        "ClienteID": 7,
+        "ProductoID": 3,
+        "Fecha": "15-04-2025",
+        "Monto": 750,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 34,
+        "ClienteID": 11,
+        "ProductoID": 8,
+        "Fecha": "2025-01-05",
+        "Monto": 750,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 35,
+        "ClienteID": 8,
+        "ProductoID": 7,
+        "Fecha": "15-04-2025",
+        "Monto": 750,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 36,
+        "ClienteID": 2,
+        "ProductoID": 8,
+        "Fecha": "2025/03/10",
+        "Monto": 750,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 37,
+        "ClienteID": 8,
+        "ProductoID": 9,
+        "Fecha": "05/02/2025",
+        "Monto": 750,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 38,
+        "ClienteID": 16,
+        "ProductoID": 5,
+        "Fecha": "05/02/2025",
+        "Monto": 750,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 39,
+        "ClienteID": 8,
+        "ProductoID": 8,
+        "Fecha": "05/02/2025",
+        "Monto": 500,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 40,
+        "ClienteID": 15,
+        "ProductoID": 5,
+        "Fecha": "05/02/2025",
+        "Monto": null,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 41,
+        "ClienteID": 9,
+        "ProductoID": 10,
+        "Fecha": "2025-01-05",
+        "Monto": null,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 42,
+        "ClienteID": 1,
+        "ProductoID": 7,
+        "Fecha": "2025-01-05",
+        "Monto": 150,
+        "Canal": "Web"
+    },
+    {
+        "TransaccionID": 43,
+        "ClienteID": 16,
+        "ProductoID": 5,
+        "Fecha": "2025/03/10",
+        "Monto": null,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 44,
+        "ClienteID": 5,
+        "ProductoID": 7,
+        "Fecha": "15-04-2025",
+        "Monto": 500,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 45,
+        "ClienteID": 19,
+        "ProductoID": 5,
+        "Fecha": "2025/03/10",
+        "Monto": 750,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 46,
+        "ClienteID": 9,
+        "ProductoID": 1,
+        "Fecha": "05/02/2025",
+        "Monto": 50,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 47,
+        "ClienteID": 9,
+        "ProductoID": 6,
+        "Fecha": "2025/03/10",
+        "Monto": null,
+        "Canal": "App"
+    },
+    {
+        "TransaccionID": 48,
+        "ClienteID": 1,
+        "ProductoID": 5,
+        "Fecha": "15-04-2025",
+        "Monto": 750,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 49,
+        "ClienteID": 1,
+        "ProductoID": 9,
+        "Fecha": "2025-01-05",
+        "Monto": null,
+        "Canal": "Tienda"
+    },
+    {
+        "TransaccionID": 50,
+        "ClienteID": 7,
+        "ProductoID": 7,
+        "Fecha": "2025-01-05",
+        "Monto": 50,
+        "Canal": "Web"
+    }
+]

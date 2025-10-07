@@ -1,0 +1,22 @@
+// Consulta base de transacciones
+TransaccionesCloud
+| project TransaccionID, Canal, Fecha, Monto
+
+// Limpiar valores nulos en Monto
+| extend Monto = iif(isnull(Monto), 0, Monto)
+
+// Calcular total de transacciones y monto por canal
+TransaccionesCloud
+| summarize
+    TotalTransacciones = count(),
+    TotalMonto = sum(Monto)
+  by Canal
+
+// Transacciones por canal y mes
+TransaccionesCloud
+| extend Mes = format_datetime(todatetime(Fecha), "yyyy-MM")
+| summarize
+    TotalTransacciones = count(),
+    TotalMonto = sum(Monto)
+  by Canal, Mes
+| order by Mes asc, Canal asc
